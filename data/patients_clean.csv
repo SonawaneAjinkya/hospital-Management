@@ -1,0 +1,501 @@
+patient_id,name,age,gender,disease,admission_date,discharge_date,length_of_stay
+1,Karan Rao,22,M,Dengue,2026-05-08,2026-05-10,2.0
+2,Pooja Johnson,46,F,Pneumonia,2026-07-31,2026-08-01,1.0
+3,Aditya Gupta,76,Other,Asthma,2026-05-28,,
+4,Olivia Reddy,60,M,Malaria,2026-04-14,,
+5,Liam Pillai,33,F,Pneumonia,2026-08-15,2026-08-16,1.0
+6,Rohan Nair,34,Other,Appendicitis,2026-08-13,,
+7,James Rao,49,F,Hypertension,2026-09-15,2026-09-16,1.0
+8,Aarav Chopra,6,Other,Pneumonia,2026-05-24,2026-05-27,3.0
+9,Rohan Verma,24,M,Hypertension,2026-05-23,2026-05-25,2.0
+10,Aditya Rao,51,M,Appendicitis,2026-04-05,,
+11,Arjun Chopra,30,Other,Asthma,2026-07-30,2026-08-01,2.0
+12,Reyansh Patel,2,M,Malaria,2026-07-27,,
+13,James Verma,46,Other,Malaria,2026-06-26,2026-07-03,7.0
+14,Priya Smith,16,M,Pneumonia,2026-04-22,2026-04-26,4.0
+15,Arjun Williams,21,M,Appendicitis,2026-05-15,2026-05-16,1.0
+16,Aditya Joshi,52,Other,Hypertension,2026-05-30,,
+17,Amit Sharma,32,M,Migraine,2026-09-10,,
+18,Emma Mehta,39,M,Arthritis,2026-05-27,2026-06-01,5.0
+19,Aarav Brown,44,F,Migraine,2026-04-12,2026-04-15,3.0
+20,Rohan Kapoor,23,Other,Tuberculosis,2026-07-22,2026-07-23,1.0
+21,Reyansh Verma,61,Other,Tuberculosis,2026-05-06,2026-05-16,10.0
+22,Vivaan Verma,20,Other,Asthma,2026-04-12,,
+23,Liam Gupta,95,M,Hypertension,2026-08-10,2026-08-12,2.0
+24,Ananya Brown,68,M,Migraine,2026-04-14,2026-04-15,1.0
+25,Vivaan Pillai,49,M,Cardiac Arrest,2026-05-30,2026-06-13,14.0
+26,Aadhya Singh,62,M,Malaria,2026-08-24,2026-09-04,11.0
+27,Myra Reddy,24,Other,Malaria,2026-06-16,2026-06-17,1.0
+28,Karan Gupta,13,M,Unknown,2026-07-23,2026-07-25,2.0
+29,Aditya Kapoor,35,M,Kidney Stones,2026-08-19,,
+30,Raj Gupta,66,M,COVID-19,2026-04-30,,
+31,Olivia Das,22,Other,Stroke,2026-05-07,2026-05-09,2.0
+32,Amit Kapoor,47,F,Migraine,2026-08-10,2026-08-17,7.0
+33,Arjun Singh,31,M,Migraine,2026-04-23,,
+34,Saanvi Pillai,57,M,Tuberculosis,2026-08-16,2026-08-17,1.0
+35,Sneha Singh,65,Other,Asthma,2026-05-19,2026-05-26,7.0
+36,Anika Singh,63,M,Diabetes,2026-04-10,2026-04-16,6.0
+37,Diya Iyer,28,Other,Asthma,2026-04-30,2026-05-01,1.0
+38,Aarav Patel,38,M,Unknown,2026-09-24,,
+39,Amit Johnson,35,Other,Kidney Stones,2026-05-05,2026-05-09,4.0
+40,Saanvi Johnson,41,M,Migraine,2026-07-16,2026-07-18,2.0
+41,Sophia Patel,61,F,Stroke,2026-05-20,2026-05-22,2.0
+42,Priya Reddy,72,M,Arthritis,2026-07-10,,
+43,Aarav Iyer,43,Other,Migraine,2026-05-12,,
+44,Sneha Khan,65,F,Fracture,2026-07-11,,
+45,Sneha Verma,64,F,Pneumonia,2026-09-23,2026-09-24,1.0
+46,Amit Khan,60,M,Diabetes,2026-07-23,2026-07-27,4.0
+47,Diya Gupta,95,F,COVID-19,2026-05-16,2026-05-22,6.0
+48,Amit Kapoor,26,F,Diabetes,2026-08-05,2026-08-08,3.0
+49,Diya Verma,16,M,Dengue,2026-06-02,2026-06-03,1.0
+50,Aadhya Williams,65,Other,Kidney Stones,2026-06-24,,
+51,Reyansh Singh,63,M,Tuberculosis,2026-07-04,,
+52,Neha Kapoor,45,Other,Tuberculosis,2026-03-28,2026-03-30,2.0
+53,Anika Gupta,29,Other,Migraine,2026-09-15,2026-09-18,3.0
+54,Sneha Patel,59,Other,Migraine,2026-09-03,2026-09-04,1.0
+55,Anika Smith,55,F,Tuberculosis,2026-08-04,2026-08-06,2.0
+56,Anika Brown,68,Other,Tuberculosis,2026-08-16,2026-08-25,9.0
+57,Saanvi Brown,72,Other,Arthritis,2026-05-11,2026-05-18,7.0
+58,Anika Chopra,48,Other,Malaria,2026-06-13,2026-06-23,10.0
+59,Sophia Nair,39,Other,Asthma,2026-07-25,2026-07-27,2.0
+60,Saanvi Rao,37,Other,Malaria,2026-05-10,2026-05-13,3.0
+61,Karan Khan,0,Other,Appendicitis,2026-06-21,2026-06-28,7.0
+62,Vivaan Khan,51,F,Dengue,2026-05-17,2026-05-19,2.0
+63,Raj Chopra,54,M,Tuberculosis,2026-04-15,2026-04-16,1.0
+64,Ananya Reddy,41,Other,Tuberculosis,2026-07-04,2026-07-06,2.0
+65,Ananya Iyer,82,Other,Kidney Stones,2026-04-24,,
+66,Pooja Patel,48,F,Fracture,2026-04-09,2026-04-11,2.0
+67,Olivia Pillai,6,F,Stroke,2026-07-24,2026-08-08,15.0
+68,Priya Rao,44,F,Arthritis,2026-07-19,2026-07-21,2.0
+69,Sai Mehta,46,F,Appendicitis,2026-08-15,2026-08-16,1.0
+70,Diya Rao,94,F,Malaria,2026-05-30,,
+71,Rohan Das,54,M,Appendicitis,2026-06-06,2026-06-07,1.0
+72,Aditya Reddy,39,M,Pneumonia,2026-06-17,,
+73,Reyansh Gupta,44,F,Cardiac Arrest,2026-09-21,2026-09-23,2.0
+74,Vivaan Nair,21,F,Cardiac Arrest,2026-08-13,2026-08-30,17.0
+75,Aarav Chopra,60,F,Asthma,2026-08-24,,
+76,Myra Williams,22,Other,Tuberculosis,2026-06-26,2026-07-02,6.0
+77,Raj Khan,60,F,Pneumonia,2026-08-14,,
+78,Myra Smith,26,Other,Malaria,2026-07-17,2026-07-19,2.0
+79,Amit Joshi,73,M,Dengue,2026-07-09,,
+80,Noah Chopra,72,Other,Diabetes,2026-04-03,,
+81,Sneha Joshi,25,M,Diabetes,2026-09-08,2026-09-12,4.0
+82,James Smith,33,F,Stroke,2026-07-03,2026-07-04,1.0
+83,Amit Williams,13,F,Arthritis,2026-07-03,2026-07-07,4.0
+84,Olivia Verma,46,F,Pneumonia,2026-07-26,2026-07-31,5.0
+85,Ethan Verma,55,M,Pneumonia,2026-04-14,,
+86,Ananya Reddy,26,F,Malaria,2026-04-02,2026-04-04,2.0
+87,James Singh,29,F,Fracture,2026-08-19,,
+88,Rohan Patel,38,M,Appendicitis,2026-08-30,,
+89,Saanvi Chopra,37,Other,Migraine,2026-08-23,2026-09-03,11.0
+90,Reyansh Gupta,56,Other,Tuberculosis,2026-07-07,,
+91,Rohan Das,49,Other,Dengue,2026-09-04,2026-09-09,5.0
+92,Noah Verma,71,F,Kidney Stones,2026-04-27,,
+93,Liam Smith,38,M,Arthritis,2026-09-13,2026-09-17,4.0
+94,Kiara Joshi,40,Other,Fracture,2026-07-31,2026-08-10,10.0
+95,Ethan Singh,50,Other,Stroke,2026-05-12,,
+96,James Williams,60,Other,Dengue,2026-08-12,,
+97,Amit Gupta,20,F,Migraine,2026-06-18,,
+98,Noah Pillai,18,Other,Cardiac Arrest,2026-05-29,,
+99,Aadhya Iyer,57,F,Pneumonia,2026-04-04,2026-04-10,6.0
+100,Raj Pillai,69,Other,Migraine,2026-06-02,2026-06-03,1.0
+101,Reyansh Gupta,49,M,Tuberculosis,2026-08-17,2026-08-18,1.0
+102,Ananya Mehta,61,Other,Tuberculosis,2026-07-31,2026-08-01,1.0
+103,Aditya Das,50,M,Cardiac Arrest,2026-07-20,,
+104,Noah Johnson,30,F,Kidney Stones,2026-05-29,2026-05-30,1.0
+105,Priya Kapoor,82,F,COVID-19,2026-06-24,2026-06-25,1.0
+106,Diya Khan,54,M,Tuberculosis,2026-07-22,2026-07-27,5.0
+107,Olivia Iyer,25,M,Pneumonia,2026-06-16,2026-06-18,2.0
+108,Noah Rao,60,Other,Appendicitis,2026-07-29,2026-07-31,2.0
+109,Kiara Iyer,64,F,Diabetes,2026-05-16,2026-05-22,6.0
+110,Vivaan Verma,53,Other,Appendicitis,2026-08-11,2026-08-16,5.0
+111,Karan Mehta,40,M,Arthritis,2026-04-29,2026-05-03,4.0
+112,Emma Joshi,29,F,Fracture,2026-08-21,2026-08-23,2.0
+113,Emma Patel,62,M,Cardiac Arrest,2026-05-31,,
+114,Sophia Verma,40,M,Fracture,2026-04-15,2026-04-19,4.0
+115,Aditya Khan,45,M,Kidney Stones,2026-08-19,,
+116,Neha Pillai,74,M,Stroke,2026-07-12,2026-07-16,4.0
+117,James Das,57,Other,Cardiac Arrest,2026-07-03,2026-07-06,3.0
+118,Ava Patel,27,M,Malaria,2026-08-20,2026-08-22,2.0
+119,Sai Khan,23,M,Kidney Stones,2026-06-03,2026-06-04,1.0
+120,James Pillai,54,F,Appendicitis,2026-05-07,2026-05-19,12.0
+121,Saanvi Joshi,40,M,Malaria,2026-05-26,2026-06-08,13.0
+122,Ethan Chopra,59,Other,Stroke,2026-06-03,,
+123,Olivia Khan,42,Other,Fracture,2026-05-17,2026-05-18,1.0
+124,Aditya Verma,59,M,Stroke,2026-06-04,,
+125,Noah Das,35,F,Hypertension,2026-08-27,,
+126,Myra Singh,60,Other,Kidney Stones,2026-09-20,2026-09-22,2.0
+127,Vivaan Williams,26,Other,COVID-19,2026-07-18,2026-07-26,8.0
+128,Ananya Chopra,34,Other,Diabetes,2026-05-31,2026-06-04,4.0
+129,Noah Verma,48,M,Asthma,2026-09-16,,
+130,Diya Iyer,46,Other,Cardiac Arrest,2026-09-10,2026-09-14,4.0
+131,Emma Johnson,49,F,Unknown,2026-07-31,,
+132,Sai Smith,46,F,Tuberculosis,2026-09-15,,
+133,Myra Kapoor,66,M,Asthma,2026-06-09,2026-06-10,1.0
+134,Vihaan Brown,46,Other,Arthritis,2026-06-16,2026-06-22,6.0
+135,James Williams,66,M,Pneumonia,2026-09-12,,
+136,Emma Joshi,66,M,Pneumonia,2026-06-28,2026-06-30,2.0
+137,Saanvi Joshi,55,Other,Asthma,2026-08-15,2026-08-17,2.0
+138,Ava Khan,55,Other,Fracture,2026-04-04,,
+139,Anika Gupta,45,M,Arthritis,2026-08-16,2026-08-25,9.0
+140,Vihaan Reddy,62,F,Migraine,2026-04-26,2026-04-29,3.0
+141,Diya Williams,71,F,Asthma,2026-06-10,2026-06-17,7.0
+142,Myra Nair,64,Other,Kidney Stones,2026-07-22,2026-07-29,7.0
+143,Diya Williams,38,F,Migraine,2026-05-01,,
+144,Aarav Das,60,Other,Appendicitis,2026-08-04,2026-08-06,2.0
+145,Sophia Mehta,35,M,Asthma,2026-08-25,2026-08-26,1.0
+146,Olivia Kapoor,46,F,Asthma,2026-07-29,2026-08-01,3.0
+147,Rohan Khan,9,Other,Cardiac Arrest,2026-06-18,,
+148,Priya Mehta,52,Other,Migraine,2026-07-11,2026-07-15,4.0
+149,Sophia Reddy,27,F,Diabetes,2026-07-03,2026-07-04,1.0
+150,Aadhya Patel,38,F,Hypertension,2026-08-03,,
+151,Arjun Williams,30,Other,Fracture,2026-07-22,2026-07-25,3.0
+152,Diya Smith,58,Other,Tuberculosis,2026-07-26,,
+153,Aadhya Kapoor,92,F,COVID-19,2026-09-10,2026-09-14,4.0
+154,Vivaan Pillai,81,M,Pneumonia,2026-07-30,,
+155,Ananya Gupta,72,F,Hypertension,2026-09-19,,
+156,Vihaan Joshi,61,M,Tuberculosis,2026-09-06,,
+157,Neha Verma,4,F,COVID-19,2026-04-04,2026-04-19,15.0
+158,Liam Williams,48,Other,Malaria,2026-07-16,2026-07-23,7.0
+159,Aditya Pillai,29,F,Dengue,2026-05-13,2026-05-15,2.0
+160,Noah Reddy,42,M,Asthma,2026-05-28,2026-05-29,1.0
+161,Sophia Sharma,55,F,Migraine,2026-06-01,2026-06-15,14.0
+162,Aditya Joshi,46,F,Dengue,2026-09-17,2026-09-20,3.0
+163,Rohan Singh,38,F,Arthritis,2026-09-07,,
+164,Sneha Mehta,38,M,Pneumonia,2026-05-17,,
+165,Saanvi Das,80,M,Arthritis,2026-08-21,2026-08-23,2.0
+166,Noah Verma,53,Other,Tuberculosis,2026-07-07,2026-07-12,5.0
+167,Ananya Pillai,52,F,Pneumonia,2026-06-09,,
+168,Sophia Reddy,78,Other,Hypertension,2026-05-15,2026-05-19,4.0
+169,Saanvi Joshi,30,M,Dengue,2026-09-04,2026-09-07,3.0
+170,Saanvi Smith,19,Other,Cardiac Arrest,2026-04-30,2026-05-06,6.0
+171,Olivia Johnson,40,Other,Kidney Stones,2026-05-18,2026-05-19,1.0
+172,Diya Mehta,82,F,Tuberculosis,2026-06-05,,
+173,James Gupta,44,M,Stroke,2026-06-22,,
+174,Myra Kapoor,26,F,Hypertension,2026-09-17,,
+175,Olivia Patel,39,F,COVID-19,2026-07-07,2026-07-10,3.0
+176,Myra Johnson,20,M,Malaria,2026-09-16,2026-09-19,3.0
+177,Raj Kapoor,36,F,Migraine,2026-07-26,2026-07-30,4.0
+178,Ethan Joshi,47,Other,Appendicitis,2026-05-23,2026-05-25,2.0
+179,Vivaan Verma,68,F,Asthma,2026-07-10,2026-07-14,4.0
+180,Olivia Reddy,45,F,Asthma,2026-04-21,2026-04-26,5.0
+181,Rohan Kapoor,40,F,Dengue,2026-09-15,,
+182,Ethan Patel,46,F,Dengue,2026-05-06,,
+183,Kiara Nair,47,F,Asthma,2026-06-07,2026-06-11,4.0
+184,Sophia Johnson,58,Other,Migraine,2026-06-28,2026-06-30,2.0
+185,Diya Nair,87,M,Arthritis,2026-06-27,2026-07-02,5.0
+186,Reyansh Pillai,5,M,Diabetes,2026-07-22,2026-08-03,12.0
+187,Arjun Chopra,50,M,Hypertension,2026-06-21,2026-06-23,2.0
+188,Reyansh Khan,32,F,Stroke,2026-08-16,2026-08-17,1.0
+189,Sneha Reddy,33,M,Kidney Stones,2026-08-27,2026-08-29,2.0
+190,Sneha Sharma,61,M,Diabetes,2026-05-11,2026-05-12,1.0
+191,Aarav Iyer,62,F,Diabetes,2026-05-27,2026-06-01,5.0
+192,Priya Gupta,51,F,Unknown,2026-07-13,2026-07-19,6.0
+193,Vihaan Joshi,28,Other,Pneumonia,2026-06-28,2026-07-05,7.0
+194,Pooja Rao,33,F,Asthma,2026-04-08,,
+195,Emma Brown,9,F,Malaria,2026-04-04,2026-04-10,6.0
+196,James Gupta,20,M,COVID-19,2026-07-31,,
+197,Diya Pillai,55,Other,Dengue,2026-05-04,2026-05-10,6.0
+198,Ava Rao,40,F,Asthma,2026-06-19,2026-06-27,8.0
+199,Neha Patel,61,Other,Malaria,2026-08-29,2026-09-01,3.0
+200,Reyansh Williams,61,F,Migraine,2026-08-16,,
+201,James Brown,45,F,Tuberculosis,2026-07-11,2026-07-12,1.0
+202,Sophia Singh,63,F,Fracture,2026-06-16,2026-06-24,8.0
+203,Amit Gupta,40,M,Cardiac Arrest,2026-07-27,2026-07-29,2.0
+204,Olivia Verma,62,Other,Kidney Stones,2026-07-01,,
+205,Anika Johnson,51,Other,Stroke,2026-06-20,2026-06-21,1.0
+206,Ava Das,42,F,Hypertension,2026-04-10,,
+207,Sophia Mehta,83,M,Arthritis,2026-08-04,2026-08-17,13.0
+208,Kiara Patel,66,F,Dengue,2026-06-25,,
+209,Karan Pillai,9,Other,Malaria,2026-07-15,,
+210,Pooja Singh,36,M,Fracture,2026-08-17,2026-08-19,2.0
+211,Pooja Smith,68,F,Diabetes,2026-09-23,,
+212,Myra Gupta,60,M,Unknown,2026-05-03,2026-05-10,7.0
+213,Liam Nair,44,F,Cardiac Arrest,2026-04-04,2026-04-11,7.0
+214,Saanvi Smith,27,Other,Dengue,2026-06-23,2026-06-24,1.0
+215,Karan Pillai,64,M,Malaria,2026-04-10,2026-04-14,4.0
+216,Anika Mehta,42,Other,Asthma,2026-06-05,2026-06-07,2.0
+217,Liam Patel,53,F,Cardiac Arrest,2026-06-05,2026-06-06,1.0
+218,Noah Mehta,33,Other,Malaria,2026-06-08,2026-06-12,4.0
+219,Ava Verma,49,M,Pneumonia,2026-04-08,2026-04-09,1.0
+220,Karan Singh,34,F,COVID-19,2026-05-21,,
+221,Anika Iyer,56,M,Cardiac Arrest,2026-03-29,2026-03-30,1.0
+222,Olivia Johnson,62,M,Cardiac Arrest,2026-09-24,,
+223,James Gupta,68,F,Dengue,2026-04-07,2026-04-08,1.0
+224,Ethan Williams,35,F,Hypertension,2026-08-21,2026-09-02,12.0
+225,Sai Pillai,30,F,Arthritis,2026-04-02,,
+226,Sneha Patel,46,M,Cardiac Arrest,2026-06-28,2026-07-05,7.0
+227,Myra Das,62,Other,COVID-19,2026-07-08,2026-07-12,4.0
+228,Aditya Rao,41,Other,Hypertension,2026-06-21,,
+229,Karan Johnson,38,F,Tuberculosis,2026-08-05,2026-08-06,1.0
+230,Ananya Patel,44,M,Appendicitis,2026-09-09,,
+231,Karan Gupta,51,M,Stroke,2026-05-11,2026-05-14,3.0
+232,Noah Chopra,28,F,Malaria,2026-08-01,2026-08-07,6.0
+233,Ava Smith,42,Other,COVID-19,2026-08-19,2026-08-23,4.0
+234,James Das,53,F,Dengue,2026-07-18,2026-07-20,2.0
+235,Saanvi Joshi,49,F,Diabetes,2026-06-26,2026-07-05,9.0
+236,Aditya Gupta,45,Other,Dengue,2026-06-30,,
+237,Olivia Verma,54,F,Migraine,2026-07-04,2026-07-05,1.0
+238,Aadhya Pillai,46,F,Kidney Stones,2026-08-21,2026-08-24,3.0
+239,Neha Smith,36,Other,Hypertension,2026-04-12,2026-04-16,4.0
+240,Ananya Joshi,82,F,Unknown,2026-09-09,2026-09-13,4.0
+241,Kiara Das,42,F,Cardiac Arrest,2026-08-31,2026-09-04,4.0
+242,Vivaan Smith,64,M,COVID-19,2026-06-22,2026-06-26,4.0
+243,Saanvi Singh,41,Other,Arthritis,2026-08-17,2026-08-19,2.0
+244,Aadhya Gupta,17,Other,Malaria,2026-08-29,,
+245,Ethan Brown,29,M,Dengue,2026-06-25,2026-06-27,2.0
+246,Myra Smith,48,M,Malaria,2026-04-18,2026-05-03,15.0
+247,Aditya Williams,6,Other,COVID-19,2026-09-19,,
+248,Reyansh Smith,52,F,Pneumonia,2026-06-28,2026-07-05,7.0
+249,Saanvi Patel,59,Other,Stroke,2026-05-02,2026-05-07,5.0
+250,Aadhya Pillai,74,M,Dengue,2026-08-09,2026-08-12,3.0
+251,Amit Pillai,43,M,Tuberculosis,2026-05-06,2026-05-17,11.0
+252,Sophia Khan,39,F,Dengue,2026-04-08,2026-04-15,7.0
+253,Ananya Das,50,F,Migraine,2026-07-20,2026-08-07,18.0
+254,Noah Joshi,23,F,Stroke,2026-05-16,2026-05-18,2.0
+255,Anika Iyer,50,M,Stroke,2026-07-03,2026-07-18,15.0
+256,Vivaan Mehta,50,F,Kidney Stones,2026-05-02,,
+257,Liam Patel,0,F,Hypertension,2026-04-23,,
+258,Raj Rao,26,M,Arthritis,2026-05-08,2026-05-10,2.0
+259,Ananya Joshi,45,F,Migraine,2026-04-20,,
+260,Liam Johnson,45,M,Cardiac Arrest,2026-07-12,2026-07-18,6.0
+261,Aadhya Patel,35,Other,Malaria,2026-07-01,2026-07-13,12.0
+262,Saanvi Mehta,57,Other,Arthritis,2026-05-04,2026-05-07,3.0
+263,Ava Sharma,47,M,Diabetes,2026-09-24,,
+264,Olivia Pillai,55,Other,Cardiac Arrest,2026-05-22,,
+265,Vihaan Verma,66,M,Cardiac Arrest,2026-06-09,2026-06-11,2.0
+266,Vihaan Mehta,75,Other,Kidney Stones,2026-09-03,2026-09-05,2.0
+267,Ananya Reddy,49,F,Cardiac Arrest,2026-09-05,2026-09-06,1.0
+268,Noah Williams,85,M,Malaria,2026-09-01,2026-09-07,6.0
+269,Kiara Gupta,48,Other,Kidney Stones,2026-04-18,2026-04-21,3.0
+270,Myra Mehta,68,M,Malaria,2026-08-04,2026-08-08,4.0
+271,Aarav Johnson,24,M,COVID-19,2026-07-01,2026-07-10,9.0
+272,Karan Chopra,39,Other,Stroke,2026-09-12,2026-09-13,1.0
+273,Olivia Smith,74,Other,Fracture,2026-05-01,2026-05-07,6.0
+274,Rohan Mehta,62,Other,Fracture,2026-09-19,2026-09-20,1.0
+275,Karan Joshi,10,M,Appendicitis,2026-05-01,2026-05-02,1.0
+276,Raj Verma,73,F,Migraine,2026-04-08,,
+277,Amit Kapoor,39,F,Appendicitis,2026-08-06,2026-08-09,3.0
+278,Kiara Verma,59,Other,COVID-19,2026-09-09,2026-09-12,3.0
+279,Anika Brown,35,Other,Asthma,2026-04-28,,
+280,Sai Mehta,71,Other,Asthma,2026-07-04,2026-07-08,4.0
+281,Aditya Williams,46,M,Cardiac Arrest,2026-08-07,2026-08-15,8.0
+282,Aadhya Patel,60,M,COVID-19,2026-05-13,2026-05-15,2.0
+283,Ava Williams,44,M,Tuberculosis,2026-06-11,2026-06-14,3.0
+284,Priya Johnson,53,Other,Cardiac Arrest,2026-06-25,2026-06-27,2.0
+285,Vivaan Gupta,18,Other,Malaria,2026-09-07,,
+286,Priya Iyer,58,M,Fracture,2026-06-29,2026-06-30,1.0
+287,James Verma,52,M,Hypertension,2026-08-30,2026-08-31,1.0
+288,Myra Chopra,26,M,Dengue,2026-09-09,2026-09-10,1.0
+289,Kiara Johnson,43,F,Stroke,2026-09-17,2026-09-19,2.0
+290,Kiara Brown,64,F,Malaria,2026-08-21,2026-08-26,5.0
+291,Aarav Iyer,36,F,Kidney Stones,2026-05-30,,
+292,Karan Singh,35,Other,Unknown,2026-08-18,2026-08-19,1.0
+293,Pooja Mehta,28,M,Hypertension,2026-08-31,2026-09-01,1.0
+294,Raj Joshi,33,M,Stroke,2026-04-15,2026-04-16,1.0
+295,Rohan Gupta,16,Other,Kidney Stones,2026-06-17,2026-06-18,1.0
+296,Rohan Iyer,41,F,Kidney Stones,2026-06-12,,
+297,Neha Reddy,46,M,Stroke,2026-04-28,,
+298,Noah Johnson,0,F,Stroke,2026-04-03,2026-04-08,5.0
+299,Aditya Gupta,55,F,Cardiac Arrest,2026-04-30,2026-05-01,1.0
+300,Karan Williams,69,Other,Hypertension,2026-07-28,2026-07-29,1.0
+301,James Joshi,62,Other,Kidney Stones,2026-06-17,2026-06-26,9.0
+302,Karan Kapoor,32,Other,Dengue,2026-04-29,,
+303,Pooja Verma,34,M,Kidney Stones,2026-04-30,2026-05-06,6.0
+304,Aadhya Khan,33,F,Kidney Stones,2026-06-13,2026-06-15,2.0
+305,Diya Nair,92,Other,Kidney Stones,2026-06-08,,
+306,Ava Kapoor,38,M,Kidney Stones,2026-04-29,2026-05-01,2.0
+307,Noah Reddy,62,M,Malaria,2026-05-10,2026-05-13,3.0
+308,Pooja Chopra,25,M,Arthritis,2026-08-29,2026-09-08,10.0
+309,Ethan Chopra,25,F,Malaria,2026-04-04,2026-04-07,3.0
+310,Ethan Sharma,46,F,Migraine,2026-08-21,2026-08-24,3.0
+311,Saanvi Mehta,28,M,Stroke,2026-08-14,2026-08-18,4.0
+312,James Gupta,26,Other,Diabetes,2026-09-19,2026-09-21,2.0
+313,James Nair,23,F,Dengue,2026-07-18,2026-07-19,1.0
+314,Aadhya Johnson,31,F,Fracture,2026-06-16,,
+315,Vihaan Smith,46,M,Asthma,2026-06-30,2026-07-02,2.0
+316,Arjun Patel,62,M,Appendicitis,2026-06-04,2026-06-11,7.0
+317,Sneha Iyer,46,F,Migraine,2026-09-01,2026-09-04,3.0
+318,Sai Mehta,46,Other,Asthma,2026-06-16,2026-06-20,4.0
+319,Aditya Brown,24,Other,Asthma,2026-06-14,2026-06-20,6.0
+320,Vivaan Verma,41,F,Asthma,2026-05-22,2026-05-24,2.0
+321,Saanvi Kapoor,63,M,Arthritis,2026-09-11,2026-09-13,2.0
+322,Diya Johnson,83,F,COVID-19,2026-07-16,2026-07-18,2.0
+323,Olivia Nair,17,F,Kidney Stones,2026-07-08,2026-07-26,18.0
+324,James Kapoor,56,F,Unknown,2026-04-15,2026-04-16,1.0
+325,Arjun Patel,31,F,COVID-19,2026-09-18,2026-09-19,1.0
+326,Kiara Reddy,35,M,Dengue,2026-06-22,2026-06-23,1.0
+327,Vivaan Verma,45,M,Tuberculosis,2026-07-08,2026-07-10,2.0
+328,Arjun Pillai,28,Other,Fracture,2026-07-27,2026-07-30,3.0
+329,Myra Pillai,40,Other,Arthritis,2026-08-31,2026-09-17,17.0
+330,Amit Rao,26,Other,Asthma,2026-08-26,2026-09-09,14.0
+331,Amit Sharma,33,F,COVID-19,2026-08-19,2026-08-28,9.0
+332,Noah Das,60,Other,Arthritis,2026-04-25,,
+333,Emma Singh,55,Other,Stroke,2026-09-05,2026-09-06,1.0
+334,Priya Verma,49,Other,Asthma,2026-08-23,2026-08-27,4.0
+335,Ava Brown,63,M,Arthritis,2026-08-09,2026-08-13,4.0
+336,Rohan Patel,29,M,Diabetes,2026-05-29,2026-05-30,1.0
+337,Anika Nair,50,F,Kidney Stones,2026-06-16,2026-06-18,2.0
+338,Sneha Verma,0,Other,Fracture,2026-08-31,,
+339,Sophia Mehta,50,Other,Cardiac Arrest,2026-05-20,2026-05-22,2.0
+340,Olivia Smith,26,Other,COVID-19,2026-05-11,2026-05-13,2.0
+341,Rohan Singh,43,Other,Asthma,2026-09-18,2026-09-22,4.0
+342,Saanvi Khan,20,F,Stroke,2026-05-30,2026-06-03,4.0
+343,Rohan Mehta,27,F,Asthma,2026-09-24,,
+344,Neha Singh,37,F,Hypertension,2026-08-18,,
+345,Raj Brown,32,F,Stroke,2026-09-17,2026-09-18,1.0
+346,Saanvi Gupta,60,F,Migraine,2026-05-04,2026-05-09,5.0
+347,Emma Nair,46,M,Arthritis,2026-09-11,2026-09-17,6.0
+348,Rohan Singh,93,M,Hypertension,2026-06-05,,
+349,Vivaan Rao,56,M,Malaria,2026-08-25,2026-08-28,3.0
+350,Aadhya Mehta,40,M,Malaria,2026-04-10,2026-04-18,8.0
+351,Olivia Iyer,52,F,Malaria,2026-05-02,2026-05-16,14.0
+352,Reyansh Das,32,F,Appendicitis,2026-07-27,2026-08-08,12.0
+353,Aditya Chopra,54,M,Kidney Stones,2026-04-12,,
+354,Sai Williams,76,M,Migraine,2026-04-06,,
+355,Myra Mehta,42,M,Migraine,2026-04-06,,
+356,Aarav Das,47,Other,Dengue,2026-06-10,,
+357,Ethan Kapoor,35,Other,Asthma,2026-06-21,2026-06-28,7.0
+358,James Singh,36,M,Stroke,2026-05-01,,
+359,James Singh,55,Other,Fracture,2026-06-20,2026-06-21,1.0
+360,Noah Nair,65,M,Dengue,2026-06-22,,
+361,Amit Williams,0,Other,COVID-19,2026-09-07,,
+362,Sai Reddy,52,F,COVID-19,2026-07-08,2026-07-17,9.0
+363,Myra Khan,39,F,Stroke,2026-05-30,2026-06-01,2.0
+364,Priya Chopra,71,M,Appendicitis,2026-06-20,2026-06-22,2.0
+365,Vivaan Patel,66,F,Appendicitis,2026-06-28,2026-07-01,3.0
+366,Pooja Das,28,Other,Hypertension,2026-07-09,2026-07-12,3.0
+367,Ananya Khan,40,M,Asthma,2026-06-11,2026-06-13,2.0
+368,Ava Johnson,61,F,Tuberculosis,2026-07-22,,
+369,Neha Nair,62,M,Malaria,2026-07-26,,
+370,Aditya Rao,46,F,Kidney Stones,2026-08-27,,
+371,Noah Patel,15,M,Arthritis,2026-06-28,2026-07-02,4.0
+372,Olivia Reddy,67,M,COVID-19,2026-08-04,2026-08-05,1.0
+373,Sophia Nair,57,Other,Dengue,2026-08-08,2026-08-15,7.0
+374,James Verma,90,F,Fracture,2026-04-20,,
+375,Vivaan Kapoor,35,F,Malaria,2026-07-12,2026-07-21,9.0
+376,Myra Singh,46,M,Tuberculosis,2026-06-14,,
+377,Anika Johnson,61,Other,Hypertension,2026-08-23,2026-08-25,2.0
+378,Aditya Mehta,27,M,Appendicitis,2026-04-12,,
+379,Karan Williams,46,F,Migraine,2026-05-13,,
+380,Pooja Brown,35,F,Hypertension,2026-07-20,,
+381,Arjun Johnson,54,M,Fracture,2026-09-13,,
+382,Priya Khan,51,M,Stroke,2026-07-06,2026-07-08,2.0
+383,Priya Kapoor,39,F,Kidney Stones,2026-06-12,2026-06-19,7.0
+384,Kiara Reddy,25,F,Pneumonia,2026-05-25,2026-06-01,7.0
+385,Sophia Williams,46,Other,Stroke,2026-04-25,2026-04-26,1.0
+386,Aditya Patel,26,Other,Diabetes,2026-04-01,2026-04-07,6.0
+387,Sneha Verma,53,M,Tuberculosis,2026-08-28,2026-09-02,5.0
+388,Olivia Nair,82,M,Fracture,2026-07-08,2026-07-10,2.0
+389,Pooja Chopra,9,F,Dengue,2026-06-10,2026-06-12,2.0
+390,Ananya Das,74,M,Malaria,2026-09-16,,
+391,Diya Verma,48,Other,Dengue,2026-05-23,2026-05-26,3.0
+392,Anika Kapoor,95,F,Diabetes,2026-05-11,2026-05-15,4.0
+393,Neha Rao,80,F,Tuberculosis,2026-09-08,2026-09-09,1.0
+394,Myra Iyer,56,Other,Asthma,2026-07-10,2026-07-21,11.0
+395,Rohan Reddy,50,F,Migraine,2026-05-24,2026-05-29,5.0
+396,Anika Kapoor,22,Other,Fracture,2026-08-18,2026-08-22,4.0
+397,Aadhya Gupta,48,F,Arthritis,2026-05-29,2026-06-01,3.0
+398,Amit Nair,47,M,Appendicitis,2026-04-20,2026-05-01,11.0
+399,Vivaan Gupta,95,M,Stroke,2026-09-16,2026-09-19,3.0
+400,Olivia Nair,55,F,Pneumonia,2026-08-25,,
+401,Pooja Sharma,41,M,Migraine,2026-06-21,2026-06-24,3.0
+402,Karan Mehta,36,M,Tuberculosis,2026-04-27,,
+403,Pooja Khan,62,Other,COVID-19,2026-09-24,,
+404,Olivia Johnson,0,F,Appendicitis,2026-06-08,2026-06-19,11.0
+405,James Patel,19,Other,Asthma,2026-08-06,,
+406,Kiara Smith,19,F,Diabetes,2026-06-17,,
+407,Aarav Singh,38,Other,Migraine,2026-05-23,,
+408,Saanvi Reddy,78,M,COVID-19,2026-08-23,,
+409,Ananya Mehta,22,Other,Malaria,2026-07-03,2026-07-05,2.0
+410,Amit Mehta,42,Other,Malaria,2026-06-22,2026-06-23,1.0
+411,Priya Johnson,61,M,Fracture,2026-07-31,2026-08-03,3.0
+412,Pooja Kapoor,41,Other,Diabetes,2026-08-14,2026-08-16,2.0
+413,Aditya Verma,81,M,Cardiac Arrest,2026-04-05,,
+414,Rohan Reddy,67,M,Pneumonia,2026-09-05,2026-09-06,1.0
+415,Ava Pillai,39,F,Malaria,2026-07-22,2026-07-27,5.0
+416,Olivia Williams,22,M,Diabetes,2026-04-01,2026-04-02,1.0
+417,Saanvi Sharma,46,Other,Arthritis,2026-06-06,2026-06-30,24.0
+418,Pooja Iyer,46,M,Migraine,2026-09-16,2026-09-17,1.0
+419,Reyansh Pillai,48,Other,Appendicitis,2026-08-09,2026-08-15,6.0
+420,Myra Gupta,42,F,Cardiac Arrest,2026-06-26,2026-06-27,1.0
+421,Rohan Khan,44,F,Unknown,2026-08-19,2026-08-20,1.0
+422,Sneha Verma,34,M,Cardiac Arrest,2026-04-17,2026-04-21,4.0
+423,Vivaan Sharma,39,Other,Fracture,2026-07-02,2026-07-03,1.0
+424,Ethan Smith,75,Other,Arthritis,2026-08-02,,
+425,Ananya Nair,0,Other,Migraine,2026-08-10,,
+426,Pooja Gupta,66,Other,Migraine,2026-07-27,2026-07-30,3.0
+427,Vivaan Iyer,38,F,Diabetes,2026-08-14,2026-08-18,4.0
+428,Amit Brown,37,M,Appendicitis,2026-08-25,2026-09-02,8.0
+429,Amit Brown,16,Other,Migraine,2026-08-19,2026-08-31,12.0
+430,Priya Reddy,29,Other,Tuberculosis,2026-06-20,2026-06-25,5.0
+431,Kiara Verma,37,M,Cardiac Arrest,2026-08-03,,
+432,Karan Pillai,43,Other,Cardiac Arrest,2026-04-16,2026-04-17,1.0
+433,Diya Joshi,43,F,Pneumonia,2026-06-19,2026-06-25,6.0
+434,Anika Iyer,45,Other,Dengue,2026-08-16,,
+435,Ava Das,59,M,Tuberculosis,2026-07-03,2026-07-05,2.0
+436,Myra Reddy,46,Other,Cardiac Arrest,2026-04-18,2026-04-19,1.0
+437,Aarav Das,34,F,COVID-19,2026-06-28,2026-06-29,1.0
+438,Aditya Iyer,54,F,Asthma,2026-06-05,2026-06-10,5.0
+439,Vihaan Sharma,40,M,COVID-19,2026-08-17,2026-08-19,2.0
+440,Neha Smith,37,F,Diabetes,2026-04-20,2026-04-26,6.0
+441,Aditya Kapoor,46,M,Dengue,2026-07-11,2026-07-19,8.0
+442,Sai Reddy,68,F,Appendicitis,2026-05-10,2026-05-15,5.0
+443,Sai Williams,56,F,Cardiac Arrest,2026-08-01,2026-08-02,1.0
+444,Kiara Singh,38,M,Tuberculosis,2026-07-29,,
+445,Reyansh Joshi,11,M,Fracture,2026-08-01,2026-08-02,1.0
+446,Aadhya Pillai,80,F,Stroke,2026-03-29,,
+447,Anika Pillai,34,M,Appendicitis,2026-06-20,2026-06-29,9.0
+448,Reyansh Mehta,65,F,Fracture,2026-08-29,,
+449,Rohan Mehta,71,Other,Stroke,2026-06-17,2026-06-19,2.0
+450,Amit Brown,9,F,Hypertension,2026-06-19,2026-06-21,2.0
+451,Olivia Iyer,69,Other,Stroke,2026-08-19,2026-08-23,4.0
+452,James Nair,1,F,Stroke,2026-04-03,,
+453,Sneha Williams,49,Other,Asthma,2026-09-21,2026-09-24,3.0
+454,Diya Reddy,43,Other,Cardiac Arrest,2026-09-06,2026-09-12,6.0
+455,Ava Mehta,44,Other,Cardiac Arrest,2026-07-02,2026-07-03,1.0
+456,Sneha Williams,67,Other,Diabetes,2026-08-04,,
+457,Neha Kapoor,47,Other,Malaria,2026-06-28,,
+458,Ananya Johnson,48,M,Malaria,2026-04-18,2026-04-21,3.0
+459,Ethan Brown,51,F,Stroke,2026-04-08,2026-04-09,1.0
+460,Diya Khan,10,Other,Tuberculosis,2026-04-24,2026-04-29,5.0
+461,Noah Khan,48,F,COVID-19,2026-08-17,2026-08-19,2.0
+462,Noah Rao,41,M,COVID-19,2026-07-24,,
+463,Anika Gupta,19,M,Arthritis,2026-07-29,2026-08-15,17.0
+464,Aadhya Joshi,47,M,Kidney Stones,2026-05-03,2026-05-05,2.0
+465,James Joshi,12,F,Hypertension,2026-06-25,2026-06-26,1.0
+466,Vihaan Sharma,56,F,Malaria,2026-04-08,,
+467,Pooja Khan,85,Other,Fracture,2026-09-17,,
+468,Anika Joshi,59,M,Stroke,2026-05-07,2026-05-15,8.0
+469,Ethan Williams,77,F,Diabetes,2026-09-05,2026-09-06,1.0
+470,James Chopra,76,F,Cardiac Arrest,2026-09-01,,
+471,Diya Gupta,8,Other,Hypertension,2026-09-24,,
+472,Aadhya Nair,19,F,Hypertension,2026-08-12,2026-08-15,3.0
+473,Liam Smith,38,Other,Cardiac Arrest,2026-09-15,,
+474,Kiara Johnson,48,F,Dengue,2026-07-06,2026-07-10,4.0
+475,Saanvi Pillai,46,Other,Hypertension,2026-09-16,,
+476,Ananya Das,16,M,Fracture,2026-05-01,2026-05-03,2.0
+477,Myra Williams,25,Other,Fracture,2026-09-21,2026-09-23,2.0
+478,Emma Kapoor,66,Other,Migraine,2026-07-04,2026-07-08,4.0
+479,Emma Das,54,M,Fracture,2026-05-11,2026-05-14,3.0
+480,Sneha Johnson,48,M,Asthma,2026-07-21,2026-07-27,6.0
+481,Olivia Rao,57,Other,Asthma,2026-05-16,,
+482,Rohan Joshi,14,F,Fracture,2026-09-19,2026-09-20,1.0
+483,Karan Khan,11,F,Diabetes,2026-08-19,2026-08-22,3.0
+484,Sai Joshi,64,Other,Tuberculosis,2026-05-24,2026-05-30,6.0
+485,Vihaan Chopra,48,M,Unknown,2026-08-01,2026-08-02,1.0
+486,Kiara Kapoor,38,M,Stroke,2026-08-14,,
+487,Anika Patel,32,Other,Arthritis,2026-07-18,2026-07-21,3.0
+488,Vivaan Joshi,81,F,COVID-19,2026-05-30,2026-06-01,2.0
+489,Vihaan Khan,57,M,Stroke,2026-04-19,2026-04-26,7.0
+490,Sneha Pillai,64,Other,Cardiac Arrest,2026-08-25,2026-08-27,2.0
+491,Reyansh Nair,30,M,Dengue,2026-09-01,2026-09-05,4.0
+492,Olivia Iyer,40,F,Tuberculosis,2026-08-11,2026-08-21,10.0
+493,Sneha Rao,43,Other,Arthritis,2026-06-10,2026-06-11,1.0
+494,Neha Williams,57,M,Appendicitis,2026-05-01,,
+495,Sneha Reddy,66,M,Fracture,2026-09-11,2026-09-12,1.0
+496,Karan Brown,47,F,Fracture,2026-06-18,,
+497,Anika Brown,56,F,Hypertension,2026-09-05,2026-09-11,6.0
+498,Priya Singh,66,Other,Migraine,2026-04-20,2026-04-25,5.0
+499,Emma Smith,43,Other,Diabetes,2026-06-30,2026-07-08,8.0
+500,James Johnson,11,M,Stroke,2026-04-20,,

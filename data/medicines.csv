@@ -1,0 +1,41 @@
+med_id,name,category,stock,reorder_level,expiry_date,unit_price
+1,Ibuprofen 1,Injection,327,37,2027-12-02,346.73
+2,Losartan 2,Tablet,131,27,2027-02-06,389.0
+3,ORS Sachets 3,Tablet,198,26,2027-07-31,477.89
+4,Cetirizine 4,Tablet,91,41,2027-11-19,489.75
+5,Omeprazole 5,Syrup,312,41,2027-10-01,56.0
+6,Iron Folic Acid 6,Syrup,393,49,2027-11-09,322.38
+7,Ceftriaxone 7,Tablet,366,12,2027-05-17,38.31
+8,Cetirizine 8,Tablet,397,41,2027-11-24,76.13
+9,Paracetamol 9,Inhaler,477,27,2026-10-02,77.5
+10,Losartan 10,IV Fluid,463,10,2027-09-29,258.66
+11,Diclofenac Gel 11,Inhaler,244,14,2027-11-14,270.98
+12,Paracetamol 12,Inhaler,196,17,2028-07-30,284.49
+13,Salbutamol Inhaler 13,Injection,170,35,2028-07-23,29.49
+14,Ibuprofen 14,Injection,187,15,2028-02-23,420.91
+15,Atorvastatin 15,Syrup,331,45,2027-03-20,21.59
+16,ORS Sachets 16,Injection,338,34,2027-03-08,448.44
+17,Salbutamol Inhaler 17,Inhaler,249,22,2026-11-19,71.69
+18,Omeprazole 18,IV Fluid,12,25,2028-08-31,245.64
+19,Ibuprofen 19,Injection,405,41,2028-02-29,267.9
+20,Ceftriaxone 20,Tablet,494,31,2026-09-10,29.92
+21,Amoxicillin 21,Syrup,207,43,2026-12-24,230.27
+22,Iron Folic Acid 22,Syrup,76,14,2028-04-09,20.37
+23,Metformin 23,Tablet,250,40,2028-06-24,453.78
+24,Amoxicillin 24,Syrup,124,10,2028-08-12,87.78
+25,Amoxicillin 25,Tablet,463,39,2027-07-05,306.39
+26,Ibuprofen 26,Tablet,418,41,2026-12-11,298.3
+27,Azithromycin 27,Inhaler,32,31,2027-03-20,406.14
+28,ORS Sachets 28,IV Fluid,166,44,2026-12-26,70.39
+29,Omeprazole 29,IV Fluid,391,21,2026-10-10,169.08
+30,Insulin 30,Inhaler,140,20,2027-01-16,348.76
+31,Iron Folic Acid 31,Syrup,84,47,2027-11-17,22.27
+32,Insulin 32,IV Fluid,405,34,2028-06-02,389.28
+33,Paracetamol 33,Tablet,450,10,2028-01-05,5.6
+34,Ibuprofen 34,IV Fluid,361,28,2028-06-22,209.28
+35,Diclofenac Gel 35,Syrup,354,19,2027-01-01,320.63
+36,Vitamin D3 36,Syrup,230,21,2027-10-20,306.05
+37,Amoxicillin 37,Inhaler,305,49,2027-02-25,475.25
+38,Atorvastatin 38,Tablet,178,45,2027-10-27,119.35
+39,Insulin 39,IV Fluid,271,33,2026-11-30,431.64
+40,Iron Folic Acid 40,Inhaler,259,50,2027-04-06,330.34

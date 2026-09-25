@@ -1,0 +1,61 @@
+staff_id,name,role,department,shift_start,shift_end
+1,Amit Nair,Nurse,Administration,14:00:00,22:00:00
+2,Aadhya Kapoor,Nurse,Pediatrics,14:00:00,22:00:00
+3,Neha Smith,Nurse,Cardiology,14:00:00,22:00:00
+4,Neha Joshi,Doctor,Cardiology,22:00:00,06:00:00
+5,James Joshi,Doctor,Cardiology,06:00:00,14:00:00
+6,Reyansh Reddy,Support,Emergency,14:00:00,22:00:00
+7,Aditya Johnson,Doctor,Emergency,14:00:00,22:00:00
+8,Raj Iyer,Doctor,Cardiology,22:00:00,06:00:00
+9,Priya Khan,Nurse,Radiology,14:00:00,22:00:00
+10,Vihaan Sharma,Technician,General Medicine,22:00:00,06:00:00
+11,Noah Khan,Nurse,Administration,06:00:00,14:00:00
+12,Aadhya Patel,Doctor,Radiology,22:00:00,06:00:00
+13,Aditya Khan,Technician,Radiology,14:00:00,22:00:00
+14,Vihaan Smith,Doctor,Surgery,06:00:00,14:00:00
+15,Myra Reddy,Admin,Pediatrics,06:00:00,14:00:00
+16,Aarav Pillai,Doctor,Pediatrics,22:00:00,06:00:00
+17,Reyansh Reddy,Nurse,Radiology,22:00:00,06:00:00
+18,Sneha Nair,Nurse,Orthopedics,14:00:00,22:00:00
+19,Karan Patel,Admin,Radiology,06:00:00,14:00:00
+20,Aadhya Reddy,Nurse,General Medicine,14:00:00,22:00:00
+21,Ananya Kapoor,Nurse,Emergency,06:00:00,14:00:00
+22,Aarav Das,Technician,General Medicine,22:00:00,06:00:00
+23,Reyansh Brown,Nurse,Emergency,22:00:00,06:00:00
+24,Emma Brown,Nurse,Orthopedics,06:00:00,14:00:00
+25,Ava Gupta,Doctor,Cardiology,22:00:00,06:00:00
+26,Arjun Brown,Support,Radiology,14:00:00,22:00:00
+27,Sai Mehta,Nurse,Orthopedics,22:00:00,06:00:00
+28,Aarav Singh,Doctor,General Medicine,06:00:00,14:00:00
+29,Neha Brown,Doctor,Emergency,06:00:00,14:00:00
+30,Karan Williams,Nurse,Radiology,22:00:00,06:00:00
+31,Ethan Kapoor,Technician,Pediatrics,06:00:00,14:00:00
+32,Aditya Rao,Nurse,General Medicine,14:00:00,22:00:00
+33,Olivia Smith,Support,Radiology,06:00:00,14:00:00
+34,Sophia Gupta,Nurse,Emergency,22:00:00,06:00:00
+35,Sneha Khan,Technician,Cardiology,22:00:00,06:00:00
+36,Vihaan Joshi,Doctor,Cardiology,14:00:00,22:00:00
+37,Sophia Iyer,Nurse,Orthopedics,22:00:00,06:00:00
+38,Rohan Sharma,Doctor,Pediatrics,06:00:00,14:00:00
+39,Liam Rao,Nurse,Emergency,14:00:00,22:00:00
+40,Priya Singh,Doctor,Orthopedics,06:00:00,14:00:00
+41,Aadhya Williams,Technician,Emergency,06:00:00,14:00:00
+42,Rohan Chopra,Nurse,Orthopedics,14:00:00,22:00:00
+43,Kiara Verma,Nurse,Administration,22:00:00,06:00:00
+44,Kiara Iyer,Admin,Emergency,06:00:00,14:00:00
+45,Sophia Patel,Technician,General Medicine,22:00:00,06:00:00
+46,Vivaan Sharma,Technician,General Medicine,06:00:00,14:00:00
+47,Myra Reddy,Doctor,Pediatrics,14:00:00,22:00:00
+48,Olivia Williams,Support,General Medicine,06:00:00,14:00:00
+49,Pooja Smith,Nurse,Emergency,14:00:00,22:00:00
+50,Kiara Patel,Admin,Cardiology,22:00:00,06:00:00
+51,Vivaan Brown,Doctor,Orthopedics,22:00:00,06:00:00
+52,Karan Das,Admin,Surgery,14:00:00,22:00:00
+53,Aarav Johnson,Doctor,General Medicine,14:00:00,22:00:00
+54,Priya Pillai,Nurse,General Medicine,14:00:00,22:00:00
+55,Emma Nair,Nurse,General Medicine,22:00:00,06:00:00
+56,Aarav Khan,Doctor,Surgery,14:00:00,22:00:00
+57,Raj Sharma,Nurse,Surgery,22:00:00,06:00:00
+58,Myra Das,Doctor,Orthopedics,22:00:00,06:00:00
+59,Anika Mehta,Doctor,Cardiology,06:00:00,14:00:00
+60,Rohan Singh,Support,Orthopedics,06:00:00,14:00:00

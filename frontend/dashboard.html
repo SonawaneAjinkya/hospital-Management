@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hospital Management — Dashboard</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <h1>🏥 Hospital Management</h1>
+  <div class="who">
+    <span id="who-text"></span> &nbsp;·&nbsp;
+    <span class="logout-link" id="logout-btn">Log out</span>
+  </div>
+</div>
+
+<div class="tabs" id="tabs"></div>
+
+<main>
+
+  <!-- OVERVIEW (all roles) -->
+  <section class="panel" id="panel-overview">
+    <div class="card">
+      <h2>Bed Occupancy</h2>
+      <p class="desc">Live snapshot across every ward.</p>
+      <div id="occupancy-stats" class="grid"><div class="loading">Loading…</div></div>
+    </div>
+    <div class="card">
+      <h2>Beds by Ward</h2>
+      <p class="desc">Availability at a glance.</p>
+      <div id="ward-summary-table"><div class="loading">Loading…</div></div>
+    </div>
+  </section>
+
+  <!-- PATIENTS (receptionist, admin) -->
+  <section class="panel" id="panel-patients">
+    <div class="two-col">
+      <div class="card">
+        <h2>Admit Patient</h2>
+        <p class="desc">Assigns the first vacant bed in the chosen ward.</p>
+        <form class="inline-form" id="admit-form">
+          <label>Name</label><input name="name" required />
+          <label>Age</label><input name="age" type="number" min="0" max="120" required />
+          <label>Gender</label>
+          <select name="gender"><option value="M">M</option><option value="F">F</option><option value="Other">Other</option></select>
+          <label>Disease / Reason</label><input name="disease" required />
+          <label>Ward</label>
+          <select name="ward" id="admit-ward-select"><option>General</option><option>ICU</option><option>Surgical</option><option>Pediatric</option><option>Maternity</option><option>Emergency</option></select>
+          <button type="submit">Admit Patient</button>
+        </form>
+        <div id="admit-msg"></div>
+      </div>
+      <div class="card">
+        <h2>Discharge Patient</h2>
+        <p class="desc">Frees up their bed immediately.</p>
+        <form class="inline-form" id="discharge-form">
+          <label>Patient ID</label><input name="patient_id" type="number" required />
+          <button type="submit">Discharge</button>
+        </form>
+        <div id="discharge-msg"></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Bed Availability by Ward</h2>
+      <div id="patients-ward-table"><div class="loading">Loading…</div></div>
+    </div>
+  </section>
+
+  <!-- MEDICINES (medical_staff, admin) -->
+  <section class="panel" id="panel-medicines">
+    <div class="card">
+      <h2>Stock Alerts</h2>
+      <div id="med-alerts"><div class="loading">Loading…</div></div>
+    </div>
+    <div class="two-col">
+      <div class="card">
+        <h2>Restock Medicine</h2>
+        <form class="inline-form" id="restock-form">
+          <label>Medicine ID</label><input name="med_id" type="number" required />
+          <label>Quantity to add</label><input name="quantity" type="number" min="1" required />
+          <button type="submit">Restock</button>
+        </form>
+        <div id="restock-msg"></div>
+      </div>
+      <div class="card">
+        <h2>Dispense Medicine</h2>
+        <form class="inline-form" id="dispense-form">
+          <label>Medicine ID</label><input name="med_id" type="number" required />
+          <label>Quantity given</label><input name="quantity" type="number" min="1" required />
+          <button type="submit">Dispense</button>
+        </form>
+        <div id="dispense-msg"></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Add New Medicine</h2>
+      <form class="inline-form" id="add-med-form">
+        <div class="grid">
+          <div><label>Name</label><input name="name" required /></div>
+          <div><label>Category</label><input name="category" required /></div>
+          <div><label>Initial stock</label><input name="stock" type="number" min="0" required /></div>
+          <div><label>Reorder level</label><input name="reorder_level" type="number" min="0" required /></div>
+          <div><label>Expiry date</label><input name="expiry_date" type="date" required /></div>
+          <div><label>Unit price</label><input name="unit_price" type="number" step="0.01" min="0" required /></div>
+        </div>
+        <button type="submit">Add Medicine</button>
+      </form>
+      <div id="add-med-msg"></div>
+    </div>
+  </section>
+
+  <!-- BEDS (admin only) -->
+  <section class="panel" id="panel-beds">
+    <div class="card">
+      <h2>Manage Beds by Ward</h2>
+      <p class="desc">
+        Don't know the real bed count for a ward? Type the correct total and save —
+        beds are added or removed automatically to match (occupied beds are never touched).
+      </p>
+      <div id="bed-manage-table"><div class="loading">Loading…</div></div>
+    </div>
+    <div class="two-col">
+      <div class="card">
+        <h2>Add a Single Bed</h2>
+        <form class="inline-form" id="add-bed-form">
+          <label>Ward</label>
+          <select name="ward"><option>General</option><option>ICU</option><option>Surgical</option><option>Pediatric</option><option>Maternity</option><option>Emergency</option></select>
+          <label>Status</label>
+          <select name="status"><option value="vacant">vacant</option><option value="maintenance">maintenance</option></select>
+          <button type="submit">Add Bed</button>
+        </form>
+        <div id="add-bed-msg"></div>
+      </div>
+      <div class="card">
+        <h2>Remove a Single Bed</h2>
+        <p class="desc">Bed must not currently be occupied.</p>
+        <form class="inline-form" id="remove-bed-form">
+          <label>Bed ID</label><input name="bed_id" type="number" required />
+          <button type="submit" class="danger">Remove Bed</button>
+        </form>
+        <div id="remove-bed-msg"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAFF SCHEDULING (admin only) -->
+  <section class="panel" id="panel-staff">
+    <div class="card">
+      <h2>Staff Scheduling</h2>
+      <p class="desc">Assignment plan based on current patient load per ward.</p>
+      <button id="load-schedule-btn">Generate Schedule</button>
+      <div id="schedule-output" style="margin-top:16px;"></div>
+    </div>
+  </section>
+
+  <!-- FORECAST (admin only) -->
+  <section class="panel" id="panel-forecast">
+    <div class="card">
+      <h2>Bed Demand Forecast</h2>
+      <div class="row-inline">
+        <label style="margin:0;">Days ahead</label>
+        <input id="forecast-days" type="number" value="7" min="1" max="30" />
+        <button id="load-forecast-btn">Forecast</button>
+      </div>
+      <div id="forecast-output" style="margin-top:16px;"></div>
+    </div>
+  </section>
+
+  <!-- USERS (admin only) -->
+  <section class="panel" id="panel-users">
+    <div class="card">
+      <h2>User Accounts</h2>
+      <div id="users-table"><div class="loading">Loading…</div></div>
+    </div>
+    <div class="card">
+      <h2>Create User</h2>
+      <form class="inline-form" id="create-user-form">
+        <div class="grid">
+          <div><label>Username</label><input name="username" required /></div>
+          <div><label>Password</label><input name="password" type="password" required /></div>
+          <div><label>Full name</label><input name="full_name" required /></div>
+          <div><label>Role</label>
+            <select name="role">
+              <option value="receptionist">receptionist</option>
+              <option value="medical_staff">medical_staff</option>
+              <option value="admin">admin</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit">Create User</button>
+      </form>
+      <div id="create-user-msg"></div>
+    </div>
+  </section>
+
+</main>
+
+<script src="js/api.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>

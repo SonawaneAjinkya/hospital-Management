@@ -1,0 +1,22 @@
+ward,staff_id,name,role
+Emergency,7,Aditya Johnson,Doctor
+Emergency,21,Ananya Kapoor,Nurse
+General,1,Amit Nair,Nurse
+General,3,Neha Smith,Nurse
+General,4,Neha Joshi,Doctor
+General,5,James Joshi,Doctor
+General,8,Raj Iyer,Doctor
+ICU,2,Aadhya Kapoor,Nurse
+ICU,9,Priya Khan,Nurse
+ICU,11,Noah Khan,Nurse
+ICU,12,Aadhya Patel,Doctor
+ICU,14,Vihaan Smith,Doctor
+Maternity,16,Aarav Pillai,Doctor
+Pediatric,38,Rohan Sharma,Doctor
+Pediatric,47,Myra Reddy,Doctor
+Pediatric,17,Reyansh Reddy,Nurse
+Pediatric,18,Sneha Nair,Nurse
+Surgical,24,Emma Brown,Nurse
+Surgical,27,Sai Mehta,Nurse
+Surgical,37,Sophia Iyer,Nurse
+Surgical,40,Priya Singh,Doctor

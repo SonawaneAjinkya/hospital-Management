@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hospital Management — Login</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="login-wrap">
+    <div class="login-card">
+      <h1>🏥 Hospital Management</h1>
+      <p class="sub">Sign in to continue</p>
+
+      <form id="login-form">
+        <label for="username">Username</label>
+        <input id="username" name="username" autocomplete="username" required />
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required />
+
+        <button type="submit" id="login-btn" style="width:100%; margin-top:20px;">Sign in</button>
+      </form>
+
+      <div id="msg"></div>
+
+      <div class="demo-hint">
+        Demo logins — receptionist: <code>reception1 / Recep@123</code><br/>
+        medical staff: <code>medstaff1 / MedStaff@123</code><br/>
+        admin: <code>admin1 / Admin@123</code>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
